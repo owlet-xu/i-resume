@@ -1,0 +1,48 @@
+.head {
+  width: 100%;
+  padding: 30px 50px;
+  color: #fff;
+  background-color: #00b38a;
+  overflow: hidden;
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid #00a982;
+    font-size: 52px;
+    font-weight: 300;
+    overflow: hidden;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    .job {
+      font-size: 24px;
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+    .info {
+      text-align: left;
+      font-size: 16px;
+      ul li {
+        padding: 5px 0px;
+      }
+    }
+    .contact {
+      font-size: 14px;
+      color: white;
+      ul li {
+        padding: 5px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      .contact-link {
+        margin-right: 5px;
+      }
+    }
+  }
+
+}

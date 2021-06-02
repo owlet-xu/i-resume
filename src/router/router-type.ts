@@ -1,5 +1,4 @@
 export enum Path {
-  Login = '/login',
   Layout = '/',
   Error = '/404',
   Messages = '/messages',
@@ -7,7 +6,6 @@ export enum Path {
 }
 
 export enum RouterName {
-  Login = 'Login',
   Layout = 'Layout',
   Error = 'Error',
   Messages = 'Messages',

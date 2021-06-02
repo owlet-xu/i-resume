@@ -3,6 +3,8 @@
 @import './base/reset.scss';
 // 不同主题样式
 @import './themes/handle.scss';
+// 全局样式
+@import './base/global.scss';
 // 封装样式
 @import './helpers/mixin.scss';
 // 响应式

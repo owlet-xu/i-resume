@@ -9,13 +9,7 @@ export const constantRouterMap = [
     path: Path.Layout,
     name: RouterName.Layout,
     component: () => import( /* webpackChunkName: "layout" */ '@/views/layout/layout.vue'),
-    redirect: Path.Login,
     children: businessRouterMap
-  },
-  {
-    path: Path.Login,
-    name: RouterName.Login,
-    component: () => import( /* webpackChunkName: "login" */ '@/views/login/login.vue')
   },
   {
     path: Path.Error,

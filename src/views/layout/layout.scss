@@ -1,29 +1,23 @@
 .layout {
   display: flex;
   flex-direction: column;
+  position: relative;
+  width: 1024px;
+  margin: 50px auto;
+  border-radius: 5px;
+  background-color: #fff;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
-  .head {
-    width: 100%;
-    height: 70px;
-  }
-  .main-container {
+  .tool-container {
     display: flex;
-    width: 100%;
-    height: calc(100% - 70px);
-    .left-menus {
-      flex: 0 0 250px;
-      @include setColorByKeys('background-color', 'menus-bg');
+    justify-content: space-between;
+    margin-bottom: 5px;
+    .last-modified {
+      color: #bbb;
+      font-size: 12px;
     }
-    .left-menus-small {
-      width: auto;
-    }
-    .right-content {
-      flex: 1 1 auto;
-      width: 100%;
-      overflow: hidden;
-      @include setColorByKeys('background-color', 'main-container-bg');
+    .download-pdf {
+      color: #bbb;
+      font-size: 12px;
     }
   }
 }

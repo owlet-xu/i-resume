@@ -1,0 +1,65 @@
+.iconfont {
+  fill: #fff;
+  vertical-align: text-top;
+  @media screen and (max-width: 720px) {
+    margin: 5px 8px;
+  }
+}
+
+.section-hd {
+  position: relative;
+  height: 32px;
+  margin: 10px auto 5px;
+  overflow: hidden;
+  .section-title-l,
+  .section-title-r {
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 35%;
+    height: 0;
+    vertical-align: middle;
+    border-top: 1px solid #ededed;
+  }
+
+  .section-title-l {
+    left: 0;
+  }
+
+  .section-title-r {
+    right: 0;
+  }
+
+  .section-title {
+    position: relative;
+    z-index: 1;
+    width: 24%;
+    min-width: 100px;
+    margin: 0 auto;
+    padding: 4px 10px;
+    border-radius: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #eee;
+  }
+}
+
+.section-bd {
+  .item {
+    .item-bd {
+      .section-content {
+        li::before {
+          content: '';
+          background-color: black;
+          display: inline-block;
+          width: 5px;
+          height: 5px;
+          margin-right: 5px;
+          position: relative;
+          top: -5px;
+        }
+      }
+    }
+  }
+}
