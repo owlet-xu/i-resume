@@ -1,6 +1,5 @@
 <template>
   <div class="practice">
-    <section class="practice">
       <header class="section-hd">
         <span class="section-title-l"></span>
         <h2 class="section-title">工作经历</h2>
@@ -10,8 +9,8 @@
         <!--经历:工作-->
         <div class="item">
           <header class="item-hd">
-            <h3 class="item-name">北京辰安信息科技有限公司(合肥)</h3>
-            <span class="item-time">2018.06 至今</span>
+            <div class="item-name">北京辰安信息科技有限公司(合肥)</div>
+            <div class="item-time">2018.06 至今</div>
             <a class="link-icon" href="https://www.alipay.com">
               <svg
                 t="1609060874501"
@@ -46,8 +45,8 @@
         </div>
         <div class="item">
           <header class="item-hd">
-            <h3 class="item-name">合肥大多数信息科技有限公司(合肥)</h3>
-            <span class="item-time">2014.06 至 2018.06</span>
+            <div class="item-name">合肥大多数信息科技有限公司(合肥)</div>
+            <div class="item-time">2014.06 至 2018.06</div>
             <a class="link-icon" href="https://tech.meituan.com">
               <svg
                 t="1609060500133"
@@ -88,7 +87,6 @@
           </div>
         </div>
       </div>
-    </section>
   </div>
 </template>
 

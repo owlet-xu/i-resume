@@ -1,12 +1,12 @@
 <template>
   <div class="skill">
-    <section class="skill">
       <header class="section-hd">
         <span class="section-title-l"></span>
         <h2 class="section-title">掌握技能</h2>
         <span class="section-title-r"></span>
       </header>
-      <div class="content-left">
+      <div class="skill-container">
+              <div class="content-left">
         <section class="section-bd">
           <!--技能:JS-->
           <div class="item">
@@ -129,7 +129,7 @@
           </div>
         </section>
       </div>
-    </section>
+      </div>
   </div>
 </template>
 

@@ -1,3 +1,15 @@
 .skill {
   margin: 20px 10px 20px 20px;
+
+  .skill-container {
+    display: flex;
+    margin-top: 20px;
+    .content-left {
+
+    }
+    .content-right {
+      margin-left: 69px;
+    }
+  }
+
 }

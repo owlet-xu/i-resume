@@ -1,14 +1,11 @@
 <template>
   <div class="project">
-    <section class="project">
       <header class="section-hd">
         <span class="section-title-l"></span>
         <h2 class="section-title">个人项目</h2>
         <span class="section-title-r"></span>
       </header>
       <div class="section-bd">
-        以下是我的开源项目与学习总结，细节请点击链接查看文档
-
         <!--项目:Webpack-->
         <div class="item">
           <header class="item-hd">
@@ -38,7 +35,7 @@
             </a>
           </header>
           <div class="item-bd">
-            <ul>
+            <ul class="section-content">
               <li>出版图书<a href="http://webpack.wuhaolin.cn/">《深入浅出 Webpack》</a></li>
               <li>
                 <a href="https://github.com/gwuhaolin/web-webpack-plugin">web-webpack-plugin</a>
@@ -78,7 +75,7 @@
             </a>
           </header>
           <div class="item-bd">
-            <ul>
+            <ul class="section-content">
               <li>
                 <a href="https://github.com/gwuhaolin/lightsocks">lightsocks</a>
                 高性能轻量级socks5网络混淆代理，可翻越GFW
@@ -120,7 +117,7 @@
             </a>
           </header>
           <div class="item-bd">
-            <ul>
+            <ul class="section-content">
               <li><a href="https://github.com/gwuhaolin/reflv">基于flv的React播放器组件</a></li>
               <li><a href="https://github.com/imweb/redemo">快速生成React组件Demo</a></li>
               <li>
@@ -154,7 +151,7 @@
             </a>
           </header>
           <div class="item-bd">
-            <ul>
+            <ul class="section-content">
               <li>
                 <a href="https://github.com/gwuhaolin/chrome-render">chrome-render</a>
                 基于headless-chrome的通用服务端渲染方案
@@ -171,7 +168,6 @@
           </div>
         </div>
       </div>
-    </section>
   </div>
 </template>
 

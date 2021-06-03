@@ -1,13 +1,18 @@
 .layout {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 1024px;
-  margin: 50px auto;
-  border-radius: 5px;
-  background-color: #fff;
-  overflow: hidden;
+  .container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1024px;
+    margin: 0px auto;
+    border-radius: 5px;
+    overflow: hidden;
+  }
   .tool-container {
+    width: 1024px;
+    margin: 50px auto;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
