@@ -1,92 +1,85 @@
 <template>
   <div class="practice">
-      <header class="section-hd">
-        <span class="section-title-l"></span>
-        <h2 class="section-title">工作经历</h2>
-        <span class="section-title-r"></span>
-      </header>
-      <div class="section-bd">
-        <!--经历:工作-->
-        <div class="item">
-          <header class="item-hd">
-            <div class="item-name">北京辰安信息科技有限公司(合肥)</div>
-            <div class="item-time">2018.06 至今</div>
-            <a class="link-icon" href="https://www.alipay.com">
-              <svg
-                t="1609060874501"
-                class="icon"
-                viewBox="0 0 1024 1024"
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                p-id="8848"
-                width="128"
-                height="128"
-              >
-                <path
-                  d="M856.746667 1024H167.253333C75.093333 1024 0 948.906667 0 856.746667V167.253333C0 75.093333 75.093333 0 167.253333 0h687.786667C948.906667 0 1024 75.093333 1024 167.253333v687.786667c0 93.866667-75.093333 168.96-167.253333 168.96z"
-                  fill="#00A0E9"
-                  p-id="8849"
-                ></path>
-                <path
-                  d="M848.213333 655.36c-39.253333-13.653333-93.866667-34.133333-153.6-54.613333 35.84-61.44 64.853333-133.12 83.626667-209.92H581.973333v-69.973334h240.64v-39.253333H581.973333V163.84h-97.28c-17.066667 0-17.066667 17.066667-17.066666 17.066667v100.693333H223.573333v39.253333h242.346667v69.973334H266.24v39.253333h389.12c-13.653333 49.493333-34.133333 95.573333-56.32 136.533333-126.293333-40.96-261.12-75.093333-346.453333-54.613333-54.613333 13.653333-88.746667 37.546667-109.226667 61.44-93.866667 114.346667-27.306667 286.72 172.373333 286.72 117.76 0 230.4-64.853333 317.44-172.373333 131.413333 63.146667 389.12 170.666667 389.12 170.666666v-153.6c1.706667 0-30.72-1.706667-174.08-49.493333z m-551.253333 139.946667c-155.306667 0-201.386667-121.173333-124.586667-187.733334 25.6-22.186667 71.68-34.133333 97.28-35.84 92.16-8.533333 177.493333 25.6 278.186667 75.093334-69.973333 90.453333-160.426667 148.48-250.88 148.48z"
-                  fill="#FFFFFF"
-                  p-id="8850"
-                ></path>
-              </svg>
-            </a>
-          </header>
-          <div class="item-bd">
-            <p class="item-des">于体验技术部参与<a href="http://b.alipay.com/">支付宝商服</a>业务的前端开发，包括：</p>
-            <ul class="section-content">
-              <li>负责支付宝中后台微服务框架</li>
-              <li>负责支付宝商家平台业务前端</li>
-            </ul>
-          </div>
+    <header class="section-hd">
+      <span class="section-title-l"></span>
+      <h2 class="section-title">工作经历</h2>
+      <span class="section-title-r"></span>
+    </header>
+    <div class="section-bd">
+      <!--经历:工作-->
+      <div class="item">
+        <header class="item-hd">
+          <a class="item-name" href="http://www.gsafety.com/" target="view_window">北京辰安信息科技有限公司(合肥)</a>
+          <div class="item-time">2018.06 至今</div>
+          <a class="link-icon gsafety" href="http://www.gsafety.com/" target="view_window">
+            <img src="../../assets/imgs/gsafety.png" />
+          </a>
+        </header>
+        <div class="item-bd">
+          <p class="item-des"><a>澳门应急项目四期</a></p>
+          <ul class="section-content">
+            <li>项目时间：2017.06至2017.12</li>
+            <li>担任角色: 项目经理、技术经理</li>
+            <li>项目内容: 基于电力公司国网平台打造的社区论坛项目</li>
+            <li>技术路线：移动端vue + h5，后台spring-boot</li>
+          </ul>
         </div>
-        <div class="item">
-          <header class="item-hd">
-            <div class="item-name">合肥大多数信息科技有限公司(合肥)</div>
-            <div class="item-time">2014.06 至 2018.06</div>
-            <a class="link-icon" href="https://tech.meituan.com">
-              <svg
-                t="1609060500133"
-                class="icon"
-                viewBox="0 0 1024 1024"
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                p-id="4624"
-                width="128"
-                height="128"
-              >
-                <path
-                  d="M203.01913 0h617.96174C956.326957 0 1024 67.673043 1024 203.01913v617.96174c0 135.346087-67.673043 203.01913-203.01913 203.01913H203.01913C67.673043 1024 0 956.326957 0 820.98087V203.01913C0 67.673043 67.673043 0 203.01913 0z"
-                  fill="#FFC300"
-                  p-id="4625"
-                ></path>
-                <path
-                  d="M445.083826 311.652174h-40.96c-7.43513 23.774609-9.928348 33.302261-9.928348 33.302261h-159.387826S232.492522 335.426783 224.923826 311.652174h-40.826435v33.302261H135.257043v39.846956h155.959653v32.901566H142.914783v42.829913h148.257391v30.274782H142.914783v42.874435h148.257391v30.942609H135.257043v42.206608h141.401044S236.855652 661.904696 133.565217 666.935652v44.966957s112.150261 11.664696 180.936348-84.947479c0 0 46.925913 83.255652 179.289044 85.036522v-46.658782s-88.865391 2.893913-140.332522-58.590609h140.332522v-42.206609H339.033043v-30.853565h147.277914v-42.829913H339.033043v-30.319304h147.277914v-42.829913H339.033043v-32.901566h154.757566v-39.846956H444.994783L445.083826 311.652174z m190.285913 324.830609h47.638261a569.878261 569.878261 0 0 0 50.576696-172.210087h41.405217v108.276869c-0.712348 21.593043-2.938435 43.052522-6.678261 64.289392h43.942957c3.33913-21.23687 5.030957-42.74087 5.075478-64.289392v-108.276869H845.913043V422.511304h-28.493913v-34.726956h-42.295652v34.949565h-153.154782v41.761391h66.916174a482.081391 482.081391 0 0 1-53.515131 171.987479z"
-                  fill="#000000"
-                  p-id="4626"
-                ></path>
-                <path
-                  d="M534.26087 311.652174v400.695652h342.772869A57.700174 57.700174 0 0 0 934.956522 654.959304V311.652174h-400.695652z m356.040347 343.30713a13.979826 13.979826 0 0 1-13.935304 13.979826h-297.894956v-314.323478h311.83026v300.343652z"
-                  fill="#000000"
-                  p-id="4627"
-                ></path>
-              </svg>
-            </a>
-          </header>
-          <div class="item-bd">
-            <p class="item-des">于餐饮生态部参与<a href="http://shouyin.meituan.com/">SasS餐厅收银系统</a>的前端开发，包括：</p>
-            <ul class="section-content">
-              <li>负责团队基础技术支撑，包含构建工具、工具包、新技术(如SW)探索实践等</li>
-              <li>主导和开发团队基础UI组件库，支撑业务快速迭代、统一视觉规范</li>
-              <li>报表项目主R，设计和开发报表框架提升报表开发效率，跟进项目迭代和任务分配</li>
-              <li>推进ReactNative在管家App中的落地，打通RN2Web</li>
-            </ul>
-          </div>
+        <div class="item-bd">
+          <p class="item-des"><a>多米尼加911应急处理系统项目(RD-02)</a></p>
+          <ul class="section-content">
+            <li>项目时间：2017.06至2017.12</li>
+            <li>担任角色: 开发组长</li>
+            <li>项目内容: 基于电力公司国网平台打造的社区论坛项目</li>
+            <li>技术路线：移动端vue + h5，后台spring-boot</li>
+          </ul>
+        </div>
+        <div class="item-bd">
+          <p class="item-des"><a>接处警产品（GS-911CAD）V2.0</a></p>
+          <ul class="section-content">
+            <li>项目时间：2017.06至2017.12</li>
+            <li>担任角色: 前端开发工程师</li>
+            <li>项目内容: 基于电力公司国网平台打造的社区论坛项目</li>
+            <li>技术路线：移动端vue + h5，后台spring-boot</li>
+          </ul>
         </div>
       </div>
+      <div class="item">
+        <header class="item-hd">
+          <a class="item-name" href="https://www.d2ssoft.com/" target="view_window">合肥大多数信息科技有限公司(合肥)</a>
+          <div class="item-time">2014.06 至 2018.06</div>
+          <a class="link-icon d2ssoft" href="https://www.d2ssoft.com/" target="view_window">
+            <img src="../../assets/imgs/d2ssoft.png" />
+          </a>
+        </header>
+        <div class="item-bd">
+          <p class="item-des">e信社区app</p>
+          <ul class="section-content">
+            <li>项目时间：2017.06至2017.12</li>
+            <li>担任角色: 综合开发工程师</li>
+            <li>项目内容: 基于电力公司国网平台打造的社区论坛项目</li>
+            <li>技术路线：移动端vue + h5，后台spring-boot</li>
+          </ul>
+        </div>
+        <div class="item-bd">
+          <p class="item-des">营业厅智能引导</p>
+          <ul class="section-content">
+            <li>项目时间：2017.01至2017.06</li>
+            <li>担任角色: 综合开发工程师</li>
+            <li>项目内容: 电力公司面向客户的展示终端，可以文字，语音，视频留言，媒体新闻稿展示</li>
+            <li>技术路线：C# winform开发客户端，web端和接口.net开发，数据库采用Access数据库</li>
+          </ul>
+        </div>
+        <div class="item-bd">
+          <p class="item-des"><a href="http://www.sierte.com/" target="view_window">司尔特电商项目</a></p>
+          <ul class="section-content">
+            <li>项目时间：2016.02至2016.12</li>
+            <li>担任角色: 综合开发工程师</li>
+            <li>项目内容: 手机app的客户端全部功能，包括app的后台接口，后台管理界面。电商网站负责部分功能开发</li>
+            <li>技术路线：移动端android原生+h5混合开发；web端和接口.net开发</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

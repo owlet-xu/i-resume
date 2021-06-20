@@ -1,7 +1,14 @@
 <template>
   <div class="head">
+    <transition name="fade">
+      <div class="pop-img" v-if="showPopImg">
+        <img src="../../assets/imgs/me.png" />
+      </div>
+    </transition>
     <section class="title-container">
-      <div class="name">徐国源</div>
+      <div class="name">
+        <img @mouseenter="imgMouseEnter" @mouseleave="imgMouseLeave" class="head-img" src="../../assets/imgs/me.png" />徐国源
+      </div>
       <div class="job">Web前端开发工程师 | Javalang后端工程师</div>
     </section>
     <section class="info-container">
@@ -15,7 +22,7 @@
       <section class="contact">
         <ul>
           <li>
-            <a href="https://blog.csdn.net/lp52054xgy?spm=1008.2028.3001.5343">
+            <a href="https://blog.csdn.net/lp52054xgy?spm=1008.2028.3001.5343" target="view_window">
               <span class="contact-link">我的技术博客</span>
               <span class="iconfont">
                 <svg width="16px" height="16px" viewBox="0 0 1024 1024">
@@ -27,7 +34,7 @@
             </a>
           </li>
           <li>
-            <a href="https://github.com/owlet-xu">
+            <a href="https://github.com/owlet-xu" target="view_window">
               <span class="contact-link">Github - owlet-xu</span>
               <span class="iconfont">
                 <svg width="16px" height="16px" viewBox="0 0 1024 1024">
@@ -39,7 +46,7 @@
             </a>
           </li>
           <li>
-            <a href="mailto:1522915316@qq.com">
+            <a href="mailto:1522915316@qq.com" target="view_window">
               <span class="contact-link">1522915316@qq.com</span>
               <span class="iconfont">
                 <svg width="16px" height="16px" viewBox="0 0 1024 1024">

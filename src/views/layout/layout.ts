@@ -7,8 +7,11 @@ import Content from '@/components/content/content.vue';
 import Practice from '@/components/practice/practice.vue';
 import Project from '@/components/project/project.vue';
 import Skill from '@/components/skill/skill.vue';
+import Appraise from '@/components/appraise/appraise.vue';
 
+// tools
 import ResizeMixin from '@/common/mixin/resize-mixin';
+import { getPdf } from '@/utils/htmlToPdf';
 
 @Component({
   components: {
@@ -16,12 +19,17 @@ import ResizeMixin from '@/common/mixin/resize-mixin';
     Head,
     Practice,
     Project,
-    Skill
+    Skill,
+    Appraise
   }
 })
 export default class Layout extends mixins(ResizeMixin) {
 
   get deviceType() {
     return AppModule.deviceType;
+  }
+
+  downPdf() {
+    getPdf('iResume', '徐国源-简历');
   }
 }

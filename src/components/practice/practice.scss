@@ -1,4 +1,13 @@
 .practice {
   margin: 20px 10px 20px 20px;
-
+  .item .item-hd .gsafety {
+    right: 60px;
+  }
+  .item .item-hd .d2ssoft {
+    right: 15px;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
 }

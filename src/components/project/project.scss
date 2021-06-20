@@ -1,4 +1,41 @@
 .project {
     margin: 20px 10px 20px 20px;
+    .item .item-hd .vue {
+        right: 30px;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      .item .item-hd .electron {
+        right: 25px;
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
 
+      .item .item-hd .spring {
+        right: 25px;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      .item .item-hd .microsoft {
+        right: 25px;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      .item .item-hd .nodejs {
+        right: 25px;
+        top: -5px;
+        img {
+          width: 50px;
+        }
+      }
 }

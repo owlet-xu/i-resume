@@ -5,6 +5,7 @@
       <slot name="project"></slot>
     </div>
     <slot name="skill"></slot>
+    <slot name="appraise"></slot>
   </div>
 </template>
 

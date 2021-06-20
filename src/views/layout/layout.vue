@@ -1,11 +1,11 @@
 <template>
   <div class="layout">
     <div class="tool-container">
-      <a class="download-pdf" href="http://resume.wuhaolin.cn/resume.pdf">下载 PDF</a>
+      <a class="download-pdf" @click="downPdf">下载 PDF</a>
       <p class="last-modified">最后更新于2021年6月</p>
     </div>
-    <div class="container">
-      <Head />
+    <div class="container" id="iResume">
+      <Head @ />
       <Content>
         <template v-slot:practice>
           <Practice />
@@ -15,6 +15,9 @@
         </template>
         <template v-slot:skill>
           <Skill />
+        </template>
+        <template v-slot:appraise>
+          <Appraise />
         </template>
       </Content>
     </div>
