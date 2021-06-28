@@ -1,8 +1,15 @@
 <template>
   <div class="project">
+    <IDialog :show.sync="show">
+      <template v-slot:items>
+       <div class="item-select" v-for="(item, index) in items" :key="index" @click="toLink(item)">
+         {{item.name}}
+       </div>
+      </template>
+    </IDialog>
     <header class="section-hd">
       <span class="section-title-l"></span>
-      <h2 class="section-title">个人项目</h2>
+      <h2 class="section-title" @click="showLinkSelect">个人项目</h2>
       <span class="section-title-r"></span>
     </header>
     <div class="section-bd">
@@ -16,7 +23,7 @@
         </header>
         <div class="item-bd">
           <ul class="section-content">
-            <li><a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-client" target="view_window">通用后台管理系统</a></li>
+            <li><a @click="showLinkSelect('vue')">通用后台管理系统</a></li>
             <li>
               <a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-show-client" target="view_window">通用移动端解决方案</a>
             </li>

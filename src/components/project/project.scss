@@ -1,5 +1,13 @@
 .project {
     margin: 20px 10px 20px 20px;
+    .item-select {
+      cursor: pointer;
+      padding: 5px;
+    }
+    .item-select:hover {
+      background-color: red;
+      color: white;
+    }
     .item .item-hd .vue {
         right: 30px;
         img {

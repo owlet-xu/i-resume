@@ -1,0 +1,35 @@
+.i-dialog {
+    z-index: 9998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .dialog-container {
+        z-index: 9999;
+        width: 350px;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: #ededed;
+        opacity: 1;
+        .title-container {
+            display: flex;
+            justify-content: space-between;
+            .title {
+                font-weight: bold;
+            }
+            .close {
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+    }
+}
