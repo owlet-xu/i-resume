@@ -9,18 +9,18 @@
       <!--项目:Vue-->
       <div class="item">
         <header class="item-hd">
-          <span class="item-time">基于Vue的后台管理系统</span>
+          <span class="item-time">基于Vue的个人项目介绍</span>
           <a class="link-icon vue" href="https://cn.vuejs.org/index.html" target="view_window">
             <img src="../../assets/imgs/vue.svg" />
           </a>
         </header>
         <div class="item-bd">
           <ul class="section-content">
-            <li><a href="https://github.com/gwuhaolin/reflv">基于flv的React播放器组件</a></li>
-            <li><a href="https://github.com/imweb/redemo">快速生成React组件Demo</a></li>
+            <li><a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-client" target="view_window">通用后台管理系统</a></li>
             <li>
-              <a href="https://www.ibm.com/developerworks/cn/web/wa-universal-react-native/index.html">React Native 三端同构实战</a> 文章
+              <a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-show-client" target="view_window">通用移动端解决方案</a>
             </li>
+            <li><a href="http://121.196.145.103:31102" target="view_window">王者荣耀活动项目</a></li>
           </ul>
         </div>
       </div>
@@ -35,16 +35,19 @@
         <div class="item-bd">
           <ul class="section-content">
             <li>
-              <a href="https://github.com/gwuhaolin/lightsocks">lightsocks</a>
-              高性能轻量级socks5网络混淆代理，可翻越GFW
+              <a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-service" target="view_window">
+                集成jpa，简单易用，集成方便
+              </a>
             </li>
             <li>
-              <a href="https://dy.wuhaolin.cn/">DY电影</a>
-              海量免费电影小站，golang实现服务、爬虫、机器学习，RN实现多平台前端
+              <a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-service" target="view_window">
+                实现了用户，部门，菜单，权限，基础商品图文等功能
+              </a>
             </li>
             <li>
-              <a href="https://github.com/gwuhaolin/livego">livego</a>
-              纯go写的直播服务端
+              <a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-service" target="view_window">
+                WebApi，Contract，Services，backend合理架构
+              </a>
             </li>
           </ul>
         </div>
@@ -52,24 +55,17 @@
       <!--项目:Electron-->
       <div class="item">
         <header class="item-hd">
-          <span class="item-time">基于Electron封装的浏览器</span>
+          <span class="item-time">基于Electron封装的个人项目</span>
           <a class="link-icon electron" href="https://www.electronjs.org/" target="view_window">
             <img src="../../assets/imgs/electron.jpg" />
           </a>
         </header>
         <div class="item-bd">
           <ul class="section-content">
-            <li>出版图书<a href="http://webpack.wuhaolin.cn/">《深入浅出 Webpack》</a></li>
+            <li><a href="https://github.com/owlet-xu/i-browser" target="view_window">基于Electron封装浏览器</a></li>
             <li>
-              <a href="https://github.com/gwuhaolin/web-webpack-plugin">web-webpack-plugin</a>
-              Webpack Plugin，可方便的生成HTML与注入资源
+              <a href="https://github.com/gwuhaolin/web-webpack-plugin">基于Electron封装文件处理小工具</a>
             </li>
-            <li>
-              <a href="https://github.com/gwuhaolin/web-webpack-plugin">ui-component-loader</a>
-              Webpack Loader，可按需加载各种UI组件库
-            </li>
-            <li>文章 <a href="https://github.com/gwuhaolin/blog/issues/4">webpack原理与实战</a></li>
-            <li>文章 <a href="https://github.com/gwuhaolin/blog/issues/2">webpack2 终极优化</a></li>
           </ul>
         </div>
       </div>
@@ -77,23 +73,20 @@
       <div class="item">
         <header class="item-hd">
           <span class="item-time">基于Winform彩票分析工具</span>
-          <a class="link-icon microsoft" href="https://dotnet.microsoft.com/" target="view_window">
+          <a class="link-icon microsoft" href="https://github.com/owlet-xu/MyWinform/tree/develop/SSQ" target="view_window">
             <img src="../../assets/imgs/microsoft.jpg" />
           </a>
         </header>
         <div class="item-bd">
           <ul class="section-content">
             <li>
-              <a href="https://github.com/gwuhaolin/lightsocks">lightsocks</a>
-              高性能轻量级socks5网络混淆代理，可翻越GFW
+              <a href="https://github.com/owlet-xu/MyWinform/tree/develop/SSQ" target="view_window">小型数据库mdb使用</a>
             </li>
             <li>
-              <a href="https://dy.wuhaolin.cn/">DY电影</a>
-              海量免费电影小站，golang实现服务、爬虫、机器学习，RN实现多平台前端
+              <a href="https://github.com/owlet-xu/MyWinform/tree/develop/SSQ" target="view_window">excel导入功能</a>
             </li>
             <li>
-              <a href="https://github.com/gwuhaolin/livego">livego</a>
-              纯go写的直播服务端
+              <a href="https://github.com/owlet-xu/MyWinform/tree/develop/SSQ" target="view_window">彩票分析算法</a>
             </li>
           </ul>
         </div>
@@ -109,16 +102,19 @@
         <div class="item-bd">
           <ul class="section-content">
             <li>
-              <a href="https://github.com/gwuhaolin/chrome-render">chrome-render</a>
-              基于headless-chrome的通用服务端渲染方案
+              <a href="https://github.com/owlet-xu/video-look" target="view_window">支持国际化切换</a>
             </li>
             <li>
-              <a href="https://github.com/gwuhaolin/koa-seo">koa-seo</a>
-              无侵入式SEO单页应用方案，koa中间件
+              <a href="https://github.com/owlet-xu/video-look" target="view_window">生成视频文件预览视频</a>
             </li>
             <li>
-              <a href="https://github.com/gwuhaolin/direct-alipay">direct-alipay</a>
-              支付宝支付服务Nodejs包
+              <a href="https://github.com/owlet-xu/video-look" target="view_window">匹配字幕文件</a>
+            </li>
+            <li>
+              <a href="https://github.com/owlet-xu/video-look" target="view_window">搜索文件夹功能</a>
+            </li>
+            <li>
+              <a href="https://github.com/owlet-xu/video-look" target="view_window">移动文件夹功能</a>
             </li>
           </ul>
         </div>

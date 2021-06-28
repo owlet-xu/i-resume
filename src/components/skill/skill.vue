@@ -95,7 +95,7 @@
             </header>
             <div class="item-bd">
               <ul class="section-content">
-                <li><a href="https://github.com/gwuhaolin/blog/issues/25">掌握关系型数据库基本概念与SQL，了解数据库性能优化方法</a></li>
+                <li>掌握关系型数据库基本概念与SQL，了解数据库性能优化方法</li>
                 <li>使用过Postgres，SQLServer，Oracle等</li>
               </ul>
             </div>
@@ -107,9 +107,9 @@
             </header>
             <div class="item-bd">
               <ul class="section-content">
-                <li><a>常见的Lunix指令，单独运维过大型项目</a></li>
-                <li><a>做过GIS开发，图层标记，电子围栏等功能</a></li>
-                <li><a>做过Android App开发，主要是采用混合开发方式</a></li>
+                <li>常见的Lunix指令，单独运维过大型项目</li>
+                <li>做过GIS开发，图层标记，电子围栏等功能</li>
+                <li>做过Android App开发，主要是采用混合开发方式</li>
               </ul>
             </div>
           </div>
