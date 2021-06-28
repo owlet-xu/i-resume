@@ -1,6 +1,6 @@
 <template>
   <div class="project">
-    <IDialog :show.sync="show">
+    <IDialog :show.sync="show" :title="'请选择链接地址'">
       <template v-slot:items>
        <div class="item-select" v-for="(item, index) in items" :key="index" @click="toLink(item)">
          {{item.name}}

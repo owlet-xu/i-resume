@@ -11,8 +11,8 @@ export default class Project extends Vue {
     linkDatas: any = {
         vue: [
             { name: 'github地址', url: 'https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-client' },
-            { name: '码云地址', url: 'https://' },
-            { name: '个人服务器部署地址', url: 'https://' },
+            { name: '码云地址', url: 'https://gitee.com/owlet-xu/qiqi-project/tree/master/qiqi-client' },
+            { name: '个人阿里云服务器部署地址', url: 'http://121.196.145.103:31101/#/login' },
         ]
     };
     items = [{ name: 'a', url: 'https://' }, { name: 'a', url: 'https://' }];
