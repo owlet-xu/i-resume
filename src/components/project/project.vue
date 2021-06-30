@@ -27,7 +27,7 @@
             <li>
               <a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-show-client" target="view_window">通用移动端解决方案</a>
             </li>
-            <li><a href="http://121.196.145.103:31102" target="view_window">王者荣耀活动项目</a></li>
+            <li><a @click="showLinkSelect('game')">王者荣耀活动项目</a></li>
           </ul>
         </div>
       </div>
@@ -42,17 +42,17 @@
         <div class="item-bd">
           <ul class="section-content">
             <li>
-              <a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-service" target="view_window">
+              <a @click="showLinkSelect('qiqiServer')">
                 集成jpa，简单易用，集成方便
               </a>
             </li>
             <li>
-              <a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-service" target="view_window">
+              <a @click="showLinkSelect('qiqiServer')">
                 实现了用户，部门，菜单，权限，基础商品图文等功能
               </a>
             </li>
             <li>
-              <a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-service" target="view_window">
+              <a @click="showLinkSelect('qiqiServer')">
                 WebApi，Contract，Services，backend合理架构
               </a>
             </li>
