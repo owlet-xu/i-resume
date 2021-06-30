@@ -96,7 +96,7 @@
             <div class="item-bd">
               <ul class="section-content">
                 <li>掌握关系型数据库基本概念与SQL，了解数据库性能优化方法</li>
-                <li>使用过Postgres，SQLServer，Oracle等</li>
+                <li>使用过Postgres，SQLServer，Oracle，mongdb等</li>
               </ul>
             </div>
           </div>

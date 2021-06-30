@@ -18,28 +18,28 @@
         <div class="item-bd">
           <p class="item-des"><a>澳门应急项目四期</a></p>
           <ul class="section-content">
-            <li>项目时间：2017.06至2017.12</li>
+            <li>项目时间：2021.03至今</li>
             <li>担任角色: 项目经理、技术经理</li>
-            <li>项目内容: 基于电力公司国网平台打造的社区论坛项目</li>
-            <li>技术路线：移动端vue + h5，后台spring-boot</li>
+            <li>项目内容: 应急指挥应用平台，会商报告系统，志愿者子系统</li>
+            <li>技术路线：vue + elementUI + electron + GIS，后端spring-boot</li>
           </ul>
         </div>
         <div class="item-bd">
           <p class="item-des"><a>多米尼加911应急处理系统项目(RD-02)</a></p>
           <ul class="section-content">
-            <li>项目时间：2017.06至2017.12</li>
+            <li>项目时间：2019.06至2021.03</li>
             <li>担任角色: 开发组长</li>
-            <li>项目内容: 基于电力公司国网平台打造的社区论坛项目</li>
-            <li>技术路线：移动端vue + h5，后台spring-boot</li>
+            <li>项目内容: 接警系统，处警系统，质控系统</li>
+            <li>技术路线：vue + elementUI + electron + GIS，后端spring-boot</li>
           </ul>
         </div>
         <div class="item-bd">
           <p class="item-des"><a>接处警产品（GS-911CAD）V2.0</a></p>
           <ul class="section-content">
-            <li>项目时间：2017.06至2017.12</li>
+            <li>项目时间：2018.06至2019.06</li>
             <li>担任角色: 前端开发工程师</li>
-            <li>项目内容: 基于电力公司国网平台打造的社区论坛项目</li>
-            <li>技术路线：移动端vue + h5，后台spring-boot</li>
+            <li>项目内容: 接警系统，处警系统</li>
+            <li>技术路线：angular + DevExtreme + electron + GIS，后端spring-boot</li>
           </ul>
         </div>
       </div>

@@ -22,6 +22,22 @@ export default class Project extends Vue {
         qiqiServer: [
             { name: 'github地址', url: 'https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-service' },
             { name: '码云地址', url: 'https://gitee.com/owlet-xu/qiqi-project' }
+        ],
+        browser: [
+            { name: 'github地址', url: 'https://github.com/owlet-xu/i-browser' },
+            { name: '码云地址', url: 'https://gitee.com/owlet-xu/i-browser' }
+        ],
+        lottery: [
+            { name: 'github地址', url: 'https://github.com/owlet-xu/MyWinform/tree/develop/SSQ' },
+            { name: '码云地址', url: 'https://gitee.com/owlet-xu/MyWinform/tree/develop/SSQ' }
+        ],
+        videoLook:  [
+            { name: 'github地址', url: 'https://github.com/owlet-xu/video-look' },
+            { name: '码云地址', url: 'https://gitee.com/owlet-xu/video-look' }
+        ],
+        resume:  [
+            { name: 'github地址', url: 'https://github.com/owlet-xu/i-resume' },
+            { name: '码云地址', url: 'https://gitee.com/owlet-xu/i-resume' }
         ]
     };
     items = [{ name: 'a', url: 'https://' }, { name: 'a', url: 'https://' }];

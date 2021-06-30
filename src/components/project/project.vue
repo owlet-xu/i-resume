@@ -2,9 +2,9 @@
   <div class="project">
     <IDialog :show.sync="show" :title="'请选择链接地址'">
       <template v-slot:items>
-       <div class="item-select" v-for="(item, index) in items" :key="index" @click="toLink(item)">
-         {{item.name}}
-       </div>
+        <div class="item-select" v-for="(item, index) in items" :key="index" @click="toLink(item)">
+          {{ item.name }}
+        </div>
       </template>
     </IDialog>
     <header class="section-hd">
@@ -24,10 +24,9 @@
         <div class="item-bd">
           <ul class="section-content">
             <li><a @click="showLinkSelect('vue')">通用后台管理系统</a></li>
-            <li>
-              <a href="https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-show-client" target="view_window">通用移动端解决方案</a>
-            </li>
+            <li><a @click="showLinkSelect('resume')">个人在线简历</a></li>
             <li><a @click="showLinkSelect('game')">王者荣耀活动项目</a></li>
+            <li><a @click="showLinkSelect('seed')">个人总结vue种子工程</a></li>
           </ul>
         </div>
       </div>
@@ -42,19 +41,13 @@
         <div class="item-bd">
           <ul class="section-content">
             <li>
-              <a @click="showLinkSelect('qiqiServer')">
-                集成jpa，简单易用，集成方便
-              </a>
+              <a @click="showLinkSelect('qiqiServer')"> 集成jpa，简单易用，集成方便 </a>
             </li>
             <li>
-              <a @click="showLinkSelect('qiqiServer')">
-                实现了用户，部门，菜单，权限，基础商品图文等功能
-              </a>
+              <a @click="showLinkSelect('qiqiServer')"> 实现了用户，部门，菜单，权限，基础商品图文等功能 </a>
             </li>
             <li>
-              <a @click="showLinkSelect('qiqiServer')">
-                WebApi，Contract，Services，backend合理架构
-              </a>
+              <a @click="showLinkSelect('qiqiServer')"> WebApi，Contract，Services，backend合理架构 </a>
             </li>
           </ul>
         </div>
@@ -62,17 +55,15 @@
       <!--项目:Electron-->
       <div class="item">
         <header class="item-hd">
-          <span class="item-time">基于Electron封装的个人项目</span>
+          <span class="item-time">基于Electron封装的浏览器</span>
           <a class="link-icon electron" href="https://www.electronjs.org/" target="view_window">
             <img src="../../assets/imgs/electron.jpg" />
           </a>
         </header>
         <div class="item-bd">
           <ul class="section-content">
-            <li><a href="https://github.com/owlet-xu/i-browser" target="view_window">基于Electron封装浏览器</a></li>
-            <li>
-              <a href="https://github.com/gwuhaolin/web-webpack-plugin">基于Electron封装文件处理小工具</a>
-            </li>
+            <li><a @click="showLinkSelect('browser')">vue,electron高度集成</a></li>
+            <li><a @click="showLinkSelect('browser')">注入脚本分析网页功能</a></li>
           </ul>
         </div>
       </div>
@@ -86,15 +77,9 @@
         </header>
         <div class="item-bd">
           <ul class="section-content">
-            <li>
-              <a href="https://github.com/owlet-xu/MyWinform/tree/develop/SSQ" target="view_window">小型数据库mdb使用</a>
-            </li>
-            <li>
-              <a href="https://github.com/owlet-xu/MyWinform/tree/develop/SSQ" target="view_window">excel导入功能</a>
-            </li>
-            <li>
-              <a href="https://github.com/owlet-xu/MyWinform/tree/develop/SSQ" target="view_window">彩票分析算法</a>
-            </li>
+            <li><a @click="showLinkSelect('lottery')">小型数据库mdb使用</a></li>
+            <li><a @click="showLinkSelect('lottery')">excel导入功能</a></li>
+            <li><a @click="showLinkSelect('lottery')">彩票分析算法</a></li>
           </ul>
         </div>
       </div>
@@ -109,19 +94,19 @@
         <div class="item-bd">
           <ul class="section-content">
             <li>
-              <a href="https://github.com/owlet-xu/video-look" target="view_window">支持国际化切换</a>
+              <a @click="showLinkSelect('videoLook')">支持国际化切换</a>
             </li>
             <li>
-              <a href="https://github.com/owlet-xu/video-look" target="view_window">生成视频文件预览视频</a>
+              <a @click="showLinkSelect('videoLook')">生成视频文件预览视频</a>
             </li>
             <li>
-              <a href="https://github.com/owlet-xu/video-look" target="view_window">匹配字幕文件</a>
+              <a @click="showLinkSelect('videoLook')">匹配字幕文件</a>
             </li>
             <li>
-              <a href="https://github.com/owlet-xu/video-look" target="view_window">搜索文件夹功能</a>
+              <a @click="showLinkSelect('videoLook')">搜索文件夹功能</a>
             </li>
             <li>
-              <a href="https://github.com/owlet-xu/video-look" target="view_window">移动文件夹功能</a>
+              <a @click="showLinkSelect('videoLook')">移动文件夹功能</a>
             </li>
           </ul>
         </div>
