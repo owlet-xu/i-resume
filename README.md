@@ -28,4 +28,4 @@ npm run start
 
 # 3. 预览
 
-​	
+​	![resume](./doc/resume.gif)
