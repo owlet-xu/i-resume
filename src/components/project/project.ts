@@ -8,6 +8,7 @@ import IDialog from '@/components/i-dialog/i-dialog.vue';
 })
 export default class Project extends Vue {
     show = false;
+    title = '';
     linkDatas: any = {
         vue: [
             { name: 'github地址', url: 'https://github.com/owlet-xu/qiqi-project/tree/master/qiqi-client' },
@@ -38,13 +39,18 @@ export default class Project extends Vue {
         resume:  [
             { name: 'github地址', url: 'https://github.com/owlet-xu/i-resume' },
             { name: '码云地址', url: 'https://gitee.com/owlet-xu/i-resume' }
+        ],
+        seed: [
+            { name: 'github地址', url: 'https://github.com/owlet-xu/modular-show-seed' },
+            { name: '码云地址', url: 'https://gitee.com/owlet-xu/modular-show-seed' }
         ]
     };
     items = [{ name: 'a', url: 'https://' }, { name: 'a', url: 'https://' }];
 
-    showLinkSelect(type: string) {
+    showLinkSelect(type: string, title: string) {
         this.show = !this.show;
         this.items = this.linkDatas[type];
+        this.title = title;
     }
 
     toLink(data: any) {

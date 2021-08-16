@@ -1,6 +1,6 @@
 <template>
   <div class="project">
-    <IDialog :show.sync="show" :title="'请选择链接地址'">
+    <IDialog :show.sync="show" :title="title">
       <template v-slot:items>
         <div class="item-select" v-for="(item, index) in items" :key="index" @click="toLink(item)">
           {{ item.name }}
@@ -9,7 +9,7 @@
     </IDialog>
     <header class="section-hd">
       <span class="section-title-l"></span>
-      <h2 class="section-title" @click="showLinkSelect">个人项目</h2>
+      <h2 class="section-title">个人项目</h2>
       <span class="section-title-r"></span>
     </header>
     <div class="section-bd">
@@ -23,10 +23,10 @@
         </header>
         <div class="item-bd">
           <ul class="section-content">
-            <li><a @click="showLinkSelect('vue')">通用后台管理系统</a></li>
-            <li><a @click="showLinkSelect('resume')">个人在线简历</a></li>
-            <li><a @click="showLinkSelect('game')">王者荣耀活动项目</a></li>
-            <li><a @click="showLinkSelect('seed')">个人总结vue种子工程</a></li>
+            <li><a @click="showLinkSelect('vue', '通用后台管理系统')">通用后台管理系统</a></li>
+            <li><a @click="showLinkSelect('resume', '个人在线简历')">个人在线简历</a></li>
+            <li><a @click="showLinkSelect('game', '王者荣耀活动项目')">王者荣耀活动项目</a></li>
+            <li><a @click="showLinkSelect('seed', '个人总结vue种子工程')">个人总结vue种子工程</a></li>
           </ul>
         </div>
       </div>
@@ -41,13 +41,13 @@
         <div class="item-bd">
           <ul class="section-content">
             <li>
-              <a @click="showLinkSelect('qiqiServer')"> 集成jpa，简单易用，集成方便 </a>
+              <a @click="showLinkSelect('qiqiServer', '基于Springboot后台服务')"> 集成jpa，简单易用，集成方便 </a>
             </li>
             <li>
-              <a @click="showLinkSelect('qiqiServer')"> 实现了用户，部门，菜单，权限，基础商品图文等功能 </a>
+              <a @click="showLinkSelect('qiqiServer', '基于Springboot后台服务')"> 实现了用户，部门，菜单，权限，基础商品图文等功能 </a>
             </li>
             <li>
-              <a @click="showLinkSelect('qiqiServer')"> WebApi，Contract，Services，backend合理架构 </a>
+              <a @click="showLinkSelect('qiqiServer', '基于Springboot后台服务')"> WebApi，Contract，Services，backend合理架构 </a>
             </li>
           </ul>
         </div>
@@ -62,8 +62,8 @@
         </header>
         <div class="item-bd">
           <ul class="section-content">
-            <li><a @click="showLinkSelect('browser')">vue,electron高度集成</a></li>
-            <li><a @click="showLinkSelect('browser')">注入脚本分析网页功能</a></li>
+            <li><a @click="showLinkSelect('browser', '基于Electron封装的浏览器')">vue,electron高度集成</a></li>
+            <li><a @click="showLinkSelect('browser', '基于Electron封装的浏览器')">注入脚本分析网页功能</a></li>
           </ul>
         </div>
       </div>
@@ -77,9 +77,9 @@
         </header>
         <div class="item-bd">
           <ul class="section-content">
-            <li><a @click="showLinkSelect('lottery')">小型数据库mdb使用</a></li>
-            <li><a @click="showLinkSelect('lottery')">excel导入功能</a></li>
-            <li><a @click="showLinkSelect('lottery')">彩票分析算法</a></li>
+            <li><a @click="showLinkSelect('lottery', '基于Winform彩票分析工具')">小型数据库mdb使用</a></li>
+            <li><a @click="showLinkSelect('lottery', '基于Winform彩票分析工具')">excel导入功能</a></li>
+            <li><a @click="showLinkSelect('lottery', '基于Winform彩票分析工具')">彩票分析算法</a></li>
           </ul>
         </div>
       </div>
@@ -94,19 +94,19 @@
         <div class="item-bd">
           <ul class="section-content">
             <li>
-              <a @click="showLinkSelect('videoLook')">支持国际化切换</a>
+              <a @click="showLinkSelect('videoLook', '基于Nodejs的文件查找小工具')">支持国际化切换</a>
             </li>
             <li>
-              <a @click="showLinkSelect('videoLook')">生成视频文件预览视频</a>
+              <a @click="showLinkSelect('videoLook', '基于Nodejs的文件查找小工具')">生成视频文件预览视频</a>
             </li>
             <li>
-              <a @click="showLinkSelect('videoLook')">匹配字幕文件</a>
+              <a @click="showLinkSelect('videoLook', '基于Nodejs的文件查找小工具')">匹配字幕文件</a>
             </li>
             <li>
-              <a @click="showLinkSelect('videoLook')">搜索文件夹功能</a>
+              <a @click="showLinkSelect('videoLook', '基于Nodejs的文件查找小工具')">搜索文件夹功能</a>
             </li>
             <li>
-              <a @click="showLinkSelect('videoLook')">移动文件夹功能</a>
+              <a @click="showLinkSelect('videoLook', '基于Nodejs的文件查找小工具')">移动文件夹功能</a>
             </li>
           </ul>
         </div>
